@@ -26,7 +26,7 @@ print("Number of test datapoints: ", len(features_test))
 classifier = NaiveBayesClassifier.train(features_train)
 print("Accuracy of the classifier: ", nltk.classify.util.accuracy(classifier, features_test))
 
-input_reviews=["bad"]
+input_reviews=["It was an epic movie"]
 print("Predictions: ")
 
 for review in input_reviews:
